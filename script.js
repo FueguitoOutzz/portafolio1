@@ -11,22 +11,3 @@ window.onscroll = function() {
         header.classList.remove("scrolled");
     }
 };
-
-// --- Código Adicional en style.css para el efecto 'scrolled' ---
-/* Pega esto al final de tu style.css para que funcione el script:
-    
-    header.scrolled {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        background: var(--color-secundario); 
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        padding-bottom: 0;
-    }
-
-    header.scrolled nav {
-        background: transparent;
-    }
-*/
