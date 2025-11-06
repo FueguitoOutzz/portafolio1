@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  portafolio-web:
+    build: . 
+    container_name: portafolio-clase
+    
+    ports:
+      - "8080:80"
